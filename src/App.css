@@ -5,12 +5,12 @@
   list-style-type: none;
 }
 
-.App {
+.app {
   max-width: 50vw;
   margin: 1em auto;
 }
 
-.App .venues {
+.app .venues {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,7 +18,7 @@
       flex-wrap: wrap;
 }
 
-.App .venues .venue {
+.app .venues .venue {
   border: 2px #594F19 solid;
   border-radius: 5px;
   margin: 0.5em;
@@ -27,21 +27,29 @@
           flex: 1 0 15em;
 }
 
-.App .venues .venue .card-body {
+.app .venues .venue .card-body {
   padding: 1em;
 }
 
-.App .venues .venue .card-body .venue-name {
+.app .venues .venue .card-body .venue-name {
   color: #324359;
 }
 
-.App .venues .venue .card-body p {
+.app .venues .venue .card-body p {
   margin: 1em 0;
 }
 
-.App .venues .venue .card-body .venue-type {
+.app .venues .venue .card-body .venue-type {
   background-color: #52D9B3;
   padding: 0.5em;
   color: white;
+}
+
+.app .row {
+  border: 3px solid red !important;
+}
+
+.app .row h1 {
+  color: red !important;
 }
 /*# sourceMappingURL=App.css.map */
