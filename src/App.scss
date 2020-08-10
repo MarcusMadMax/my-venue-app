@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style-type: none;
+}
+
+.App{
+  max-width: 50vw;
+  margin:1em auto;
+
+  .venues{
+    display: flex;
+    flex-wrap:wrap;
+
+    .venue{
+      border:2px #594F19 solid;
+      border-radius: 5px;
+      margin:0.5em;
+      flex: 1 0 15em;
+
+      .card-body{
+        padding: 1em;
+
+        .venue-name{
+          color: #324359;
+        }
+
+        p{
+          margin: 1em 0;
+        }
+
+        .venue-type{
+          background-color: #52D9B3;
+          padding:0.5em;
+          color:white;
+        }
+      }
+    }
+  }
+}
+
